@@ -4,7 +4,7 @@ export const data = [
         name: 'Zapatilla Nike',
         category: 'A',
         image: 'https://picsum.photos/400/300',
-        description: 'Zapatilals Nike ultimo modelo 2022 - Totalmente flama',
+        description: 'Zapatillas Nike ultimo modelo 2022 - Totalmente flama',
         price: 20000,
     },
     {
@@ -12,7 +12,7 @@ export const data = [
         name: 'Zapatilla Adidas',
         category: 'A',
         image: 'https://picsum.photos/400/300',
-        description: 'Zapatilals Adidas ultimo modelo 2022 - Excelente modelo',
+        description: 'Zapatillas Adidas ultimo modelo 2022 - Excelente modelo',
         price: 21000,
     },
     {

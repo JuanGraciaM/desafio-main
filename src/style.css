@@ -4,20 +4,25 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url('../src/assets/background.jpg');
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .card {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     text-align: center;
     width: 450px;
-    border-radius: 5px;
-    background-color: coral;
+    border-radius: 15px;
+    background-color: #ffffff;
     margin: 1rem;
-    box-shadow: 5px 5px 1px grey;
+    box-shadow: 5px 2px #000000, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
 }
 
 .card-img {
@@ -26,8 +31,10 @@
 
 .NavBar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .NavBar a {
@@ -37,7 +44,7 @@
 }
 
 .NavBar a:visited {
-    color: rgb(54, 6, 15);
+    color:aliceblue;
 }
 
 .NavBar a:hover {
@@ -46,7 +53,10 @@
 
 .loading {
     font-size: 3rem;
-    color: green;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    text-shadow: 5px 2px #000000, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
 }
 
 .item-detail {
@@ -72,4 +82,22 @@
 
 .item-detail__container {
     margin-left: 1rem;
+}
+.icon {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bolder;
+    color:aliceblue;
+}   
+.icon:hover {
+    color: red;
+}
+.ache3 {
+    font-size: 4rem;
+    color: aliceblue;
+    text-shadow: 5px 2px #000000, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
+    letter-spacing: -5px;
+}
+.linkeado {
+    text-decoration: none;
 }

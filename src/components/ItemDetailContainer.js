@@ -24,5 +24,5 @@ export const ItemDetailContainer = () => {
     });
   }, []);
 
-  return isLoading ? <h1>Loading...</h1> : <ItemDetail {...product} />;
+  return isLoading ? <h1 className="loading">Loading...</h1> : <ItemDetail {...product} />;
 };

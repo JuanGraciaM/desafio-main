@@ -30,7 +30,7 @@ export const ItemListContainer = ({ greeting }) => {
     <h1 className="loading">Cargando...</h1>
   ) : ( 
     <>
-      <h3 style={{textAlign:'center'}}>{greeting}</h3>
+      <h3 style={{textAlign:'center'}} className="ache3">{greeting}</h3>
       <ItemList items={items} />
     </>
   );
