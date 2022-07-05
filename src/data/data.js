@@ -1,0 +1,50 @@
+export const data = [
+    {
+        id: '1',
+        name: 'Zapatilla Nike',
+        category: 'A',
+        image: 'https://picsum.photos/400/300',
+        description: 'Zapatilals Nike ultimo modelo 2022 - Totalmente flama',
+        price: 20000,
+    },
+    {
+        id: '2',
+        name: 'Zapatilla Adidas',
+        category: 'A',
+        image: 'https://picsum.photos/400/300',
+        description: 'Zapatilals Adidas ultimo modelo 2022 - Excelente modelo',
+        price: 21000,
+    },
+    {
+        id: '3',
+        name: 'Buzo Nike',
+        category: 'B',
+        image: 'https://picsum.photos/400/300',
+        description: 'Buzo Nike modelo 2022 -  Super Abrigado',
+        price: 8000,
+    },
+    {
+        id: '4',
+        name: 'Buzo Adidas',
+        category: 'B',
+        image: 'https://picsum.photos/400/300',
+        description: 'Buzo Nike modelo 2022 -  Super Abrigado',
+        price: 9000,
+    },
+    {
+        id: '5',
+        name: 'Pantalon Nike',
+        category: 'C',
+        image: 'https://picsum.photos/400/300',
+        description: 'Pantalon Nike 2022 - Tela Nautica',
+        price: 6000,
+    },
+    {
+        id: '6',
+        name: 'Pantalon Adidas',
+        category: 'C',
+        image: 'https://picsum.photos/400/300',
+        description: 'Pantalon Adidas 2022 - Algodon',
+        price: 7000,
+    }
+]
