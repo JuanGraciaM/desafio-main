@@ -13,7 +13,7 @@ export const Item = ({ id, name, category, image, price}) => {
       </div>
       <p>${price}</p>
       <Link to={`/item/${id}`} className="linkeado">
-        <button className="btn-link">Ver detalles</button>
+        <button className="btn-link">VER DETALLE</button>
       </Link>
     </div>
     </>
