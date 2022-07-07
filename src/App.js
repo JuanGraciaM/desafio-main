@@ -4,6 +4,7 @@ import  { NavBar }  from './components/NavBar';
 import { ItemListContainer } from './components/ItemListContainer';
 import { ItemDetailContainer } from './components/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Footer } from './components/Footer.js';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/category/:idcategoria" element={<ItemListContainer greeting={'FILTRADO'} />} />
         <Route path="/item/:iditem" element={<ItemDetailContainer />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

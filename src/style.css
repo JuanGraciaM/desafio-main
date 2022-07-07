@@ -114,4 +114,135 @@ body{
 }
 .linkeado {
     text-decoration: none;
+    color: white;
+}
+
+.btn-link {
+    background-color: #50da00;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding: .7rem .2rem .7rem;
+    box-shadow: 2px 1px #e4da4f, -2px -1px #269bd1;
+    font-weight: bolder;
+}
+
+.btn-link:hover {
+    background:#9b26d1;
+    color: white;
+}
+
+.btn-link:active {
+    background:#B71C1C;
+    color: black;
+}
+
+.cart {
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart p{
+    margin: 1rem 1rem 0 .3rem;
+}
+
+.cart i {
+    margin: 1.2rem 0 0 1rem;
+}
+
+/* footer */
+
+.footer {
+    padding: 3rem 2rem;
+    background-color: black;
+    color: #FAFAFA;
+    margin-top: 6rem;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 3rem;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+/* Primera columna */
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+/* Columna 2,3,4*/
+.footer__content--divlist h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+}
+
+.footer__content--divlist ul {
+    list-style: none;
+}
+
+.footer__content--divlist li {
+    margin: 0 0 0.2rem;
+}
+
+.footer__content--divlist a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.footer__content--divlist a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #CD6155;
+}
+
+/* Div redes */
+
+.footer__media {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.footer__media--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FAFAFA;
+    border-radius: 50%;
+    margin: 0 .2rem;
+}
+
+.footer__media--div:hover {
+    border: 2px solid #B71C1C;
+}
+
+.footer__media--div:hover > a i {
+    color: #B71C1C;
+}
+
+
+.footer__media a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.footer__media i {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 2rem;
+}
+
+/* Div copyright */
+.footer__copy {
+    text-align: center;
 }
