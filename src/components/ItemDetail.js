@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ItemCount } from './ItemCount';
+import { Link } from 'react-router-dom';
 
 export const ItemDetail = ({
   id,
@@ -7,7 +9,20 @@ export const ItemDetail = ({
   image,
   description,
   price,
+  stock
 }) => {
+
+  const [purchaseCompleted, setPurchaseCompleted] = useState(false);
+
+  const onAdd = (count) => {
+    setPurchaseCompleted(true);
+    if(count > 0) {
+    }
+  }
+
+
+
+
   return (
     <div className="item-detail">
       <div className="divcontainer">
@@ -18,6 +33,8 @@ export const ItemDetail = ({
         <h1>{name}</h1>
         <p>{description}</p>
         <h2>${price}</h2>
+        {purchaseCompleted ? <div><p>Agregado</p><Link to="/cart">Ir al carrito</Link></div> : (
+        <ItemCount stock={stock} price={price} onAdd={onAdd}/> )}
       </section>
       </div>
     </div>

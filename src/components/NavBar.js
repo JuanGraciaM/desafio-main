@@ -7,7 +7,8 @@ export const NavBar = () => {
     { id: "asfadd", address:'/', text: 'Nuestros Productos' },
     { id: "123asf", address:'/category/AirPro', text: 'AirPro Max' },
     { id: "sgs3q3", address:'/category/Street', text: 'Street Wear' },
-    { id: "gkl98s", address:'/category/City', text: 'City Style' }
+    { id: "gkl98s", address:'/category/City', text: 'City Style' },
+    { id: "gkl98x", address:'/cart', text: <i className="fa-solid fa-cart-shopping"> 0</i> }
   ];
 
   return (
@@ -24,10 +25,6 @@ export const NavBar = () => {
           </Link>
         );
       })}
-      <div className="cart">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <p>0</p>
-      </div>
     </section>
   );
 };

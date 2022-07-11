@@ -1,0 +1,52 @@
+.itemCount {
+    color: white;
+}
+
+.itemCount-container {
+    font-size: 3rem;
+    display: flex; 
+    justify-content: center;
+}
+
+.itemCount-container button {
+    font-size: 3rem;
+    background-color: inherit;
+    color: white;
+}
+
+.itemCount-container button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.itemCount-container button:active {
+    color: brown;
+}
+
+.itemCount-container p {
+    margin: 0 1rem 0 1.2rem;
+}
+
+.btn-plus {
+    padding: .5rem 0 0;
+}
+
+.itemCount-units {
+    margin: 1rem 0 .2rem;
+}
+
+.itemCount-add {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: .4rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid greenyellow;
+    outline: 3px solid brown;
+    background-color: blueviolet;
+    color: white;
+}
+
+.itemCount-add:active {
+    background-color: red;
+}

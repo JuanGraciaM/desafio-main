@@ -6,6 +6,7 @@ export const data = [
         image: require('../assets/img09.jpg'),
         description: 'Zapatillas Nike 2022 Air300 - Totalmente flama',
         price: 20000,
+        stock: 10,
     },
     {
         id: '2',
@@ -14,6 +15,7 @@ export const data = [
         image: require('../assets/img07.jpg'),
         description: 'Zapatillas Nike 2022 Air200 - Excelente modelo',
         price: 21000,
+        stock: 10,
     },
     {
         id: '3',
@@ -22,6 +24,7 @@ export const data = [
         image: require('../assets/img06.jpg'),
         description: 'Zapatillas Nike Street Flag modelo 2022 -  El mejor estilo',
         price: 8000,
+        stock: 10,
     },
     {
         id: '4',
@@ -30,6 +33,7 @@ export const data = [
         image: require('../assets/img05.jpg'),
         description: 'Zapatillas Nike 2022 Street Freeze - Lo mejor para el invierno',
         price: 9000,
+        stock: 10,
     },
     {
         id: '5',
@@ -38,6 +42,7 @@ export const data = [
         image: require('../assets/img02.jpg'),
         description: 'Zapatillas Nike 2022 New York City - Importado directo',
         price: 6000,
+        stock: 10,
     },
     {
         id: '6',
@@ -46,5 +51,6 @@ export const data = [
         image: require('../assets/img10.jpg'),
         description: 'Zapatillas Nike 2022 New Jersey City  - Importado directo',
         price: 7000,
+        stock: 10,
     }
 ]
