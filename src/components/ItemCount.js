@@ -42,7 +42,7 @@ export const ItemCount = ({stock, onAdd}) => {
     }
 
     const addToCart = () => {
-        if(num == 0) {
+        if(num === 0) {
             Swal.fire({
                 title: 'Atención!',
                 text: 'No has seleccionado una cantidad diferente a 0',
